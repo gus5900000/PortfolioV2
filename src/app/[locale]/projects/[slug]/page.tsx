@@ -12,13 +12,12 @@ import Link from "next/link";
 import { GithubIcon } from "componants/components/icons";
 import ButtonCustom from "componants/components/ButtonCustom";
 import { getTranslations } from "next-intl/server";
+import { promises as fsPromises } from 'fs';
 
 interface PageParams {
   slug: string;
   locale: string;
 }
-
-
 
 async function ProjectContent({ slug, locale }: PageParams) {
   const t = await getTranslations();
@@ -132,18 +131,21 @@ async function ProjectContent({ slug, locale }: PageParams) {
 export async function generateStaticParams() {
   try {
     const projectsDir = path.join(process.cwd(), "src", "content", "projects", "fr");
-    
-    if (!fs.existsSync(projectsDir)) {
-      console.error(`Directory does not exist: ${projectsDir}`);
+
+    try {
+      await fsPromises.access(projectsDir);
+    } catch {
+      console.error(`Directory not accessible: ${projectsDir}`);
       return [];
     }
 
-    const files = fs.readdirSync(projectsDir);
+    const files = await fsPromises.readdir(projectsDir);
 
     return files
-      .filter((filename) => filename.endsWith(".md"))
-      .map((filename) => ({
+      .filter(filename => filename.endsWith(".md"))
+      .map(filename => ({
         slug: filename.replace(".md", ""),
+        locale: "fr" // Ajoutez explicitement la locale
       }));
   } catch (error) {
     console.error("Error generating static params:", error);
@@ -152,6 +154,14 @@ export async function generateStaticParams() {
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export default async function Page({ params }: any) {
+export default async function Page({ 
+  params 
+}: { 
+  params: { slug: string; locale: string } 
+}) {
+  if (!params.slug || !params.locale) {
+    notFound();
+  }
+  
   return <ProjectContent slug={params.slug} locale={params.locale} />;
 }
