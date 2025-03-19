@@ -11,6 +11,7 @@ import { IframeStyles } from "componants/components/IframeStyles";
 import Link from "next/link";
 import { GithubIcon } from "componants/components/icons";
 import ButtonCustom from "componants/components/ButtonCustom";
+import { getTranslations } from "next-intl/server";
 
 interface PageParams {
   slug: string;
@@ -19,6 +20,8 @@ interface PageParams {
 
 export default async function Page({ params }: { params: PageParams }) {
   const { slug, locale = "fr" } = params;
+
+  const t = await getTranslations();
   
   try {
     const filePath = path.join(
@@ -41,8 +44,9 @@ export default async function Page({ params }: { params: PageParams }) {
       description: contentHtml.match(/<h4[^>]*>Description<\/h4>([\s\S]*?)(?=<h4|<h3|<h2|$)/i)?.[1] || data.description,
       conception: contentHtml.match(/<h4[^>]*>Conception<\/h4>([\s\S]*?)(?=<h4|<h3|<h2|$)/i)?.[1] || "",
       fonctionnalites: contentHtml.match(/<h4[^>]*>Fonctionnalités<\/h4>([\s\S]*?)(?=<h4|<h3|<h2|$)/i)?.[1] || "",
-      apercu: contentHtml.match(/<h3[^>]*>Aperçu<\/h3>([\s\S]*?)(?=<h3|<h2|$)/i)?.[1] || "",
-      github: contentHtml.match(/<a href="(https:\/\/github\.com\/[^"]+)">GitHub<\/a>/)?.[1] || "#"
+      apercu: contentHtml.match(/<h2[^>]*>Aperçu<\/h2>([\s\S]*?)(?=<h2|$)/i)?.[1] || 
+              contentHtml.match(/<h3[^>]*>Aperçu<\/h3>([\s\S]*?)(?=<h3|<h2|$)/i)?.[1] || "",
+      github: contentHtml.match(/<a href="(https:\/\/github\.com\/[^"]+)"[^>]*>/i)?.[1] || "#"
     };
 
     return (
@@ -82,25 +86,25 @@ export default async function Page({ params }: { params: PageParams }) {
           </div>
           {/* Section Description */}
           <div className="mb-8">
-            <h2 className="text-2xl font-semibold mb-2 ">Description</h2>
+            <h2 className="text-2xl font-semibold mb-2 ">{t("ProjectContent.description")}</h2>
             <div className="text-gray-500 dark:text-gray-400 prose prose-invert" dangerouslySetInnerHTML={{ __html: sections.description }}></div>
           </div>
           
           {/* Section Conception */}
           <div className="mb-8">
-            <h2 className="text-2xl font-semibold mb-2 ">Conception</h2>
+            <h2 className="text-2xl font-semibold mb-2 ">{t("ProjectContent.design")}</h2>
             <div className="text-gray-500 dark:text-gray-400 prose prose-invert" dangerouslySetInnerHTML={{ __html: sections.conception }}></div>
           </div>
           
           {/* Section Fonctionnalités */}
           <div className="mb-8">
-            <h2 className="text-2xl font-semibold mb-2 ">Fonctionnalités</h2>
+            <h2 className="text-2xl font-semibold mb-2 ">{t("ProjectContent.features")}</h2>
             <div className="text-gray-500 dark:text-gray-400 prose prose-invert" dangerouslySetInnerHTML={{ __html: sections.fonctionnalites }}></div>
           </div>
           
           {/* Section Aperçu */}
           <div className="mb-8">
-            <h2 className="text-2xl font-semibold mb-2 ">Aperçu</h2>
+            <h2 className="text-2xl font-semibold mb-2 ">{t("ProjectContent.overview")}</h2>
             <div className="text-gray-500 dark:text-gray-400 prose prose-invert" dangerouslySetInnerHTML={{ __html: sections.apercu }}></div>
           </div>
           

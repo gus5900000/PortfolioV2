@@ -36,6 +36,12 @@
     "description": "Découvrez mes derniers projets, réalisés pendant mon temps libre en autodidacte ou lors de formations et stages.",
     "button": "Tous les projets"
   },
+  "ProjectContent": {
+    "description": "Description",
+    "design": "Conception",
+    "features": "Fonctionnalités",
+    "overview": "Aperçu"
+  },
   "ProjectCard": {
     "Luvio": {
       "title": "Luvio",

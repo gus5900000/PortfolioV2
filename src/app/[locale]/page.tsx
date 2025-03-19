@@ -2,7 +2,6 @@ import { useTranslations } from "next-intl";
 import SkillCardProps from "componants/components/SkillCard";
 import TagCard from "componants/components/TagCard";
 import ProjectCard from "componants/components/ProjectCard";
-import Image from "next/image";
 import ButtonCustom from "componants/components/ButtonCustom";
 import HolographicImage from "componants/components/HolographicImage";
 
@@ -94,7 +93,7 @@ export default function HomePage() {
             slug="luvio"
           />
           <ProjectCard
-            iconSrc="/assets/stock-1.jpg"
+            iconSrc="/assets/stock-3.jpg"
             iconAlt="Background"
             title={t("ProjectCard.Cinéscope.title")}
             description={t("ProjectCard.Cinéscope.description")}
@@ -103,7 +102,7 @@ export default function HomePage() {
             slug="cinescope"
           />
           <ProjectCard
-            iconSrc="/assets/stock-1.jpg"
+            iconSrc="/assets/stock-3.jpg"
             iconAlt="Background"
             title={t("ProjectCard.AINAO.title")}
             description={t("ProjectCard.AINAO.description")}

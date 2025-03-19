@@ -42,8 +42,8 @@ L'application contient les fonctionnalités suivantes :
 - **Messagerie** : Chat en temps réel, liste des conversations, indicateurs de statut, historique des messages.
 - **Système de Recherche** : Filtres multicritères, géolocalisation, recommandations personnalisées, recherche par centres d'intérêt.
 
-#### Aperçu
+### Aperçu
 
-Voici un aperçu du jeu et le repo du code [GitHub](https://github.com/gus5900000/AINAO)
+Voici un aperçu du jeu et le repo du code [GitHub]()
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6Tv3PjVxCW8" frameborder="0" allowfullscreen></iframe>

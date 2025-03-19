@@ -27,10 +27,8 @@ L'application contient trois fonctionnalités principales :
 
 Ce projet a été réalisé avec le framework PyQt5 pour l'interface graphique.
 
-#### Aperçu
+### Aperçu
 
-![Toolbox](./asset/project/toolbox.gif)
-
-#### Code Source
+![Toolbox](/assets/toolbox.gif)
 
 Le code source complet du projet est disponible sur [GitHub](https://github.com/gus5900000/DumsTools).

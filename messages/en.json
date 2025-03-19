@@ -37,6 +37,12 @@
     "description": "Discover my latest projects, completed during my free time as a self-taught learner or during training and internships.",
     "button": "All Projects"
   },
+  "ProjectContent": {
+    "description": "Description",
+    "design": "Design",
+    "features": "Features",
+    "overview": "Overview"
+  },
   "ProjectCard": {
     "Luvio": {
       "title": "Luvio",

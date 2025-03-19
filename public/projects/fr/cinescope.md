@@ -38,8 +38,8 @@ L'application propose plusieurs fonctionnalités essentielles :
 - **Administration avancée** : Tableau de bord avec statistiques, gestion des utilisateurs et de leurs droits.  
 - **Sécurité renforcée** : Authentification sécurisée, protection contre les injections SQL et gestion avancée des sessions.  
 
-#### Aperçu
+### Aperçu
 
-Retrouvez le code source et la documentation sur [GitHub](lien-vers-votre-repo).  
+Retrouvez le code source et la documentation sur [GitHub]().  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BYV9w3tznF0" frameborder="0" allowfullscreen></iframe>

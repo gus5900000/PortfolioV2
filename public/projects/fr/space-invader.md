@@ -10,7 +10,6 @@ tags:
   - Python
 ---
 
-<!-- ![alt text](/assets/spaceinvader.gif) -->
 ## Space Invader
 
 #### Description
@@ -30,10 +29,8 @@ L'application contient les fonctionnalités suivantes :
 - **Niveaux :** Progression à travers différents niveaux de difficulté.
 - **Déplacement des Tirs :** Contrôle précis des tirs des joueurs et des ennemis.
 
-#### Aperçu
+### Aperçu
 
-![Space Invader Gif](./asset/project/spaceinvader.gif)
-
-#### Code Source
+![Toolbox](/assets/spaceinvader.gif)
 
 Le code source complet du projet est disponible sur [GitHub](https://github.com/gus5900000/Spaceinvader).
