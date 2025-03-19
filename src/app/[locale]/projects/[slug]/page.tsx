@@ -18,9 +18,9 @@ interface PageParams {
   locale: string;
 }
 
-export default async function Page({ params }: { params: PageParams }) {
-  const { slug, locale = "fr" } = params;
 
+
+async function ProjectContent({ slug, locale }: PageParams) {
   const t = await getTranslations();
   
   try {
@@ -142,4 +142,9 @@ export async function generateStaticParams() {
     console.error("Error generating static params:", error);
     return [];
   }
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export default async function Page({ params }: any) {
+  return <ProjectContent slug={params.slug} locale={params.locale} />;
 }
