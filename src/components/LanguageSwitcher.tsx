@@ -16,6 +16,7 @@ const LanguageSwitcher: React.FC = () => {
     const pathnameWithoutLocale = pathname.replace(`/${locale}`, '');
     router.push(`/${newLocale}${pathnameWithoutLocale}`);
   };
+  
 
   return (
     <Button 

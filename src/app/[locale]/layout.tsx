@@ -6,6 +6,7 @@ import { routing } from "../../../i18n/routing";
 import { ThemeProvider } from "componants/components/ThemeProvider";
 import Navbar from "componants/components/NavBar";
 import AnimatedLayout from "componants/components/AnimatedLayout";
+import SEOProvider from "componants/components/SEOProvider";
 
 export const metadata: Metadata = {
   title: "Augustin Verissimo",
@@ -37,10 +38,11 @@ export default async function LocaleLayout({
           disableTransitionOnChange
         >
           <NextIntlClientProvider>
-            <AnimatedLayout>
-              <Navbar />
-              <main>{children}</main>
-            </AnimatedLayout>
+            <SEOProvider />
+              <AnimatedLayout>
+                <Navbar />
+                <main>{children}</main>
+              </AnimatedLayout>
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
