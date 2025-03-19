@@ -26,7 +26,8 @@ async function ProjectContent({ slug, locale }: PageParams) {
   try {
     const filePath = path.join(
       process.cwd(),
-      "public",
+      "src",
+      "content",
       "projects",
       locale,
       `${slug}.md`
@@ -130,7 +131,13 @@ async function ProjectContent({ slug, locale }: PageParams) {
 
 export async function generateStaticParams() {
   try {
-    const projectsDir = path.join(process.cwd(), "public", "projects", "fr");
+    const projectsDir = path.join(process.cwd(), "src", "content", "projects", "fr");
+    
+    if (!fs.existsSync(projectsDir)) {
+      console.error(`Directory does not exist: ${projectsDir}`);
+      return [];
+    }
+
     const files = fs.readdirSync(projectsDir);
 
     return files
