@@ -1,0 +1,183 @@
+{
+  "HomePage": {
+    "title": "Hello, my name is Augustin Verissimo",
+    "subtitle": "Looking for a work-study program for September 2025 as a web developer.",
+    "headerRole": {
+      "developer": "Developer",
+      "junior": "Junior"
+    },
+    "footer": {
+      "content":"For any question, request for information."
+    }
+  },
+  "Header": {
+    "navigations": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "contact": "Contact Me"
+    }
+  },
+  "SkillCard": {
+    "Developer": {
+      "title": "Developer",
+      "description": "Passionate about software development, with a strong foundation in Python, Swift, HTML, CSS, PHP, and JavaScript."
+    },
+    "Jobs": {
+      "title": "Job passion",
+      "description": "Aspiring to turn my passion into my profession."
+    },
+    "Futur": {
+      "title": "Future",
+      "description": "Looking for an apprenticeship as a web developer starting in September 2025."
+    }
+  },
+  "PorjectHeader": {
+    "title": "My Latest Projects",
+    "description": "Discover my latest projects, completed during my free time as a self-taught learner or during training and internships.",
+    "button": "All Projects"
+  },
+  "ProjectCard": {
+    "Luvio": {
+      "title": "Luvio",
+      "description": "Modern dating application developed in PHP with an MVC architecture, allowing users to find love based on their interests."
+    },
+    "Cinéscope": {
+      "title": "Cinéscope",
+      "description": "Web application for cinema management developed in PHP, allowing the management of movies, screenings, and subscriptions."
+    },
+    "AINAO": {
+      "title": "AINAO",
+      "description": "Prototype of an iOS application, this project was completed during the Apple Foundation Extended program training!"
+    },
+    "NetNinja": {
+      "title": "NetNinja",
+      "description": "Prototype of an iOS application, this project was completed during the Apple Foundation Program training !"
+    },
+    "Toolbox": {
+      "title": "Toolbox",
+      "description": "I created a toolbox that translates and corrects sentences, as well as a shortcut system that opens files."
+    },
+    "SpaceInvader": {
+      "title": "Space Invader",
+      "description": "I recoded the famous Space Invaders game in Python from scratch !"
+    }
+  },
+  "AboutCard": {
+    "title": "About Me",
+    "content": "Since childhood, I have been passionate about computers and new technologies. I started programming in 2018 with Python in high school. After joining E2C and the Web@cademie by Epitech, I enhanced my skills through internships at JetDev and Sergic."
+  },
+  "ParcoursProfessionel": {
+    "title": "Professional Experiences",
+    "experiences": [
+      {
+        "id": 1,
+        "period": "August 2024 - September 2024",
+        "title": "Data Scientist",
+        "company": "Sergic",
+        "type": "4-week Internship",
+        "tasks": [
+          "Introduction to Snowflakes",
+          "Introduction to Snowpark",
+          "Introduction to Power BI",
+          "Creation of Python scripts to retrieve and integrate open data into the company's database",
+          "Design of SQL tables and views",
+          "Development of functions and query optimization",
+          "Data integration and manipulation in the database"
+        ]
+      },
+      {
+        "id": 2,
+        "period": "March 2024 - April 2024",
+        "title": "Web Developer",
+        "company": "Sergic",
+        "type": "5-week Internship",
+        "tasks": [
+          "POC AI for an application that generates reception reports from audio",
+          "Creation of an API using FastAPI",
+          "Creation of a web page",
+          "Introduction to Power Automate",
+          "Introduction to Carbone.io",
+          "Integration of external APIs"
+        ]
+      },
+      {
+        "id": 3,
+        "period": "March 2024 - March 2024",
+        "title": "Web Developer",
+        "company": "JetDev",
+        "type": "1-week Internship",
+        "tasks": ["WordPress optimization", "SEO"]
+      },
+      {
+        "id": 4,
+        "period": "August 2021 - January 2024",
+        "title": "Temporary Worker",
+        "company": "Various Companies",
+        "type": "Temporary Missions",
+        "tasks": ["Various missions", "Adaptability", "Teamwork"]
+      }
+    ]
+  },
+
+  "ParcoursEducatif": {
+    "title": "Educational Background",
+    "educations": [
+      {
+        "id": 1,
+        "period": "November 2024 - November 2026",
+        "title": "Web@cademie by Epitech",
+        "institution": "Epitech",
+        "type": "Web Development Training",
+        "skills": [
+          "Frontend Development: HTML5, CSS3 (Flexbox, animations, Bootstrap), JavaScript, React",
+          "Backend Development: PHP (Laravel), Node.js, MySQL, MongoDB",
+          "Project Management: Agile methodologies (SCRUM), creation of specifications",
+          "Full Stack: MERN (MongoDB, Express, React, Node.js), APIs and microservices",
+          "Soft Skills: Written and oral expression, technological watch"
+        ]
+      },
+      {
+        "id": 2,
+        "period": "January 2024 - September 2024",
+        "title": "E2C Grand Lille",
+        "institution": "E2C Grand Lille",
+        "type": "Professional Integration Program",
+        "skills": ["Internship search", "Building a professional project"]
+      },
+      {
+        "id": 3,
+        "period": "June 2024 - July 2024",
+        "title": "Apple Foundation Program Extented",
+        "institution": "Simplon",
+        "type": "iOS Development Training",
+        "skills": [
+          "Creation of an iOS application",
+          "Improvement of Swift skills",
+          "Network calls",
+          "Group project"
+        ]
+      },
+      {
+        "id": 4,
+        "period": "April 2024 - May 2024",
+        "title": "Apple Foundation Program",
+        "institution": "Simplon",
+        "type": "iOS Development Training",
+        "skills": [
+          "Creation of an iOS application",
+          "Introduction to Swift",
+          "Group project"
+        ]
+      },
+      {
+        "id": 5,
+        "period": "September 2019 - July 2023",
+        "title": "Lycée Yves Kernanec",
+        "institution": "Lycée Yves Kernanec",
+        "type": "High School Diploma Level",
+        "skills": []
+      }
+    ]
+  }
+}

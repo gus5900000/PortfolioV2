@@ -1,0 +1,181 @@
+{
+  "HomePage": {
+    "title": "Bonjour, je m'appelle Augustin Verissimo",
+    "subtitle": "En recherche d'une alternance pour septembre 2025 en tant que développeur web.",
+    "headerRole": {
+      "developer": "Développeur",
+      "junior": "Junior"
+    },
+    "footer": {
+      "content":"Pour toute question, demande de renseignement."
+    }
+  },
+  "Header": {
+    "navigations": {
+      "home": "Accueil",
+      "about": "À propos",
+      "projects": "Projet"
+    }
+  },
+  "SkillCard": {
+    "Developer": {
+      "title": "Développeur",
+      "description": "Passionné par le développement logiciel, avec des bases solides en Python, Swift, HTML, CSS, PHP et Javascript."
+    },
+    "Jobs": {
+      "title": "Métier passion",
+      "description": "Ayant l'ambition de transformer ma passion en mon métier."
+    },
+    "Futur": {
+      "title": "Futur",
+      "description": "Recherche d'une alternance pour septembre 2025 en tant que développeur web."
+    }
+  },
+  "PorjectHeader": {
+    "title": "Mes derniers projet",
+    "description": "Découvrez mes derniers projets, réalisés pendant mon temps libre en autodidacte ou lors de formations et stages.",
+    "button": "Tous les projets"
+  },
+  "ProjectCard": {
+    "Luvio": {
+      "title": "Luvio",
+      "description": "Application de rencontres moderne développée en PHP avec une architecture MVC, permettant aux utilisateurs de trouver l'amour basé sur leurs centres d'intérêts."
+    },
+    "Cinéscope": {
+      "title": "Cinéscope",
+      "description": "Application web de gestion de cinéma développée en PHP, permettant la gestion des films, des séances et des abonnements."
+    },
+    "AINAO": {
+      "title": "AINAO",
+      "description": "Prototype d'application iOS, ce projet a été réalisé pendant la formation programme Apple Foundation Extented !"
+    },
+    "NetNinja": {
+      "title": "NetNinja",
+      "description": "Prototype d'application iOS, ce projet a été réalisé pendant la formation programme Apple Foundation !"
+    },
+    "Toolbox": {
+      "title": "Toolbox",
+      "description": "J'ai créé une toolbox qui permet de traduire et de corriger des phrases, ainsi qu'un système de raccourcis qui ouvre des fichiers"
+    },
+    "SpaceInvader": {
+      "title": "Space Invader",
+      "description": "J'ai recodé le célèbre jeu Space Invaders en Python à partir de zéro !"
+    }
+  },
+  "AboutCard": {
+    "title": "À propos de moi",
+    "content": "Depuis mon enfance, je suis passionné par l'informatique et les nouvelles technologies. J'ai commencé à programmer en 2018 avec Python au lycée. Après avoir intégré l'E2C et la Web@cademie by Epitech, j'ai enrichi mes compétences grâce à des stages chez JetDev et Sergic."
+  },
+  "ParcoursProfessionel": {
+    "title": "Expériences Professionnelles",
+    "experiences": [
+      {
+        "id": 1,
+        "period": "août 2024 - sept. 2024",
+        "title": "Data Scientist",
+        "company": "Sergic",
+        "type": "Stage de 4 semaines",
+        "tasks": [
+          "Initiation à Snowflakes",
+          "Initiation à Snowpark",
+          "Initiation à Power BI",
+          "Création de scripts en Python pour récupérer et intégrer des données issues d'open data dans la base de données de l'entreprise",
+          "Conception de tables et vues SQL",
+          "Développement de fonctions et optimisation de requêtes",
+          "Intégration et manipulation de données dans la base"
+        ]
+      },
+      {
+        "id": 2,
+        "period": "mars 2024 - avr. 2024",
+        "title": "Développeur Web",
+        "company": "Sergic",
+        "type": "Stage de 5 semaines",
+        "tasks": [
+          "POC IA d'une application qui permet de créer des PV de réception à partir d'un audio",
+          "Création d'une API en utilisant FastAPI",
+          "Création d'une page web",
+          "Initiation à Power Automate",
+          "Initiation à Carbone.io",
+          "Intégration d'API externes"
+        ]
+      },
+      {
+        "id": 3,
+        "period": "mars 2024 - mars 2024",
+        "title": "Développeur Web",
+        "company": "JetDev",
+        "type": "Stage d'une semaine",
+        "tasks": ["Optimisation de WordPress", "SEO"]
+      },
+      {
+        "id": 4,
+        "period": "août 2021 - janv. 2024",
+        "title": "Intérim",
+        "company": "Diverses entreprises",
+        "type": "Missions temporaires",
+        "tasks": ["Missions diverses", "Adaptabilité", "Travail en équipe"]
+      }
+    ]
+  },
+  "ParcoursEducatif": {
+    "title": "Formations",
+    "educations": [
+      {
+        "id": 1,
+        "period": "Novembre 2024 - Novembre 2026",
+        "title": "Web@cademie by Epitech",
+        "institution": "Epitech",
+        "type": "Formation en développement web",
+        "skills": [
+          "Développement Frontend : HTML5, CSS3 (Flexbox, animations, Bootstrap), JavaScript, React",
+          "Développement Backend : PHP (Laravel), Node.js, MySQL, MongoDB",
+          "Gestion de projet : Méthodologies agiles (SCRUM), création de cahiers des charges",
+          "Full Stack : MERN (MongoDB, Express, React, Node.js), APIs et microservices",
+          "Compétences transversales : Expression écrite et orale, veille technologique"
+        ]
+      },
+      {
+        "id": 2,
+        "period": "janv. 2024 - sept. 2024",
+        "title": "E2C Grand Lille",
+        "institution": "E2C Grand Lille",
+        "type": "Programme d'insertion professionnelle",
+        "skills": ["Recherche de stage", "Construire un projet professionnel"]
+      },
+      {
+        "id": 3,
+        "period": "juin 2024 - juil. 2024",
+        "title": "Apple Foundation Program Extented",
+        "institution": "Simplon",
+        "type": "Formation en développement iOS",
+        "skills": [
+          "Création d'une application iOS",
+          "Amélioration des compétences en Swift",
+          "Appel réseau",
+          "Projet de groupe"
+        ]
+      },
+      {
+        "id": 4,
+        "period": "avr. 2024 - mai 2024",
+        "title": "Apple Foundation Program",
+        "institution": "Simplon",
+        "type": "Formation en développement iOS",
+        "skills": [
+          "Création d'une application iOS",
+          "Initiation à Swift",
+          "Projet de groupe"
+        ]
+      },
+      {
+        "id": 5,
+        "period": "sept. 2019 - juil. 2023",
+        "title": "Lycée Yves Kernanec",
+        "institution": "Lycée Yves Kernanec",
+        "type": "Niveau Bac",
+        "skills": []
+      }
+    ]
+  }
+}
