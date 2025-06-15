@@ -3,10 +3,11 @@ import "../globals.css";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "../../../i18n/routing";
-import { ThemeProvider } from "componants/components/ThemeProvider";
-import Navbar from "componants/components/NavBar";
-import AnimatedLayout from "componants/components/AnimatedLayout";
-import SEOProvider from "componants/components/SEOProvider";
+import { ThemeProvider } from "@/components/ThemeProvider";
+import Navbar from "@/components/NavBar";
+import AnimatedLayout from "@/components/AnimatedLayout";
+import SEOProvider from "@/components/SEOProvider";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Augustin Verissimo",
@@ -42,6 +43,7 @@ export default async function LocaleLayout({
               <AnimatedLayout>
                 <Navbar />
                 <main>{children}</main>
+                <Footer/>
               </AnimatedLayout>
           </NextIntlClientProvider>
         </ThemeProvider>

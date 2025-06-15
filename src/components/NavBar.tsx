@@ -4,8 +4,8 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
-import ThemeSwitcher from "componants/components/ThemeSwitcher";
-import LanguageSwitcher from "componants/components/LanguageSwitcher";
+import ThemeSwitcher from "@/components/ThemeSwitcher";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 
 export default function Navbar() {
@@ -48,7 +48,7 @@ export default function Navbar() {
                         }}
                     />
                 </div>
-                <h1 className="text-2xl font-bold ml-2 md:text-xl pr-2">Augustin Verissimo</h1>
+                <h1 className="text-2xl font-bold ml-2 md:text-3xl pr-2">Augustin Verissimo</h1>
 
                 {/* Mobile menu button */}
                 <button

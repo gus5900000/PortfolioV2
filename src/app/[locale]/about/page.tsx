@@ -1,8 +1,8 @@
 'use client';
-import ParcoursProfessionnel from "componants/components/ParcoursProfessionel";
-import { UserIcon, EmailIcon, LocationIcon, CVIcon } from "componants/components/icons";
+import ParcoursProfessionnel from "@/components/ParcoursProfessionel";
+import { UserIcon, EmailIcon, LocationIcon, CVIcon } from "@/components/icons";
 import { useTranslations } from "next-intl";
-import ParcoursEducatif from "componants/components/ParcoursEducatif";
+import ParcoursEducatif from "@/components/ParcoursEducatif";
 
 export default function AboutPage() {
 
