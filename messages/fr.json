@@ -43,6 +43,10 @@
     "overview": "Aperçu"
   },
   "ProjectCard": {
+    "GusCss": {
+      "title": "GusCSS",
+      "description": "Framework CSS léger inspiré de Bootstrap"
+    },
     "Luvio": {
       "title": "Luvio",
       "description": "Application de rencontres moderne développée en PHP avec une architecture MVC, permettant aux utilisateurs de trouver l'amour basé sur leurs centres d'intérêts."

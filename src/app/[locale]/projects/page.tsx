@@ -5,8 +5,17 @@ export default function ProjectsPage() {
   const t = useTranslations();
 
   return (
-<div className="container mx-auto px-4 max-w-7xl">
-    <div className="py-8 text-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 place-items-center md:py-12">
+    <div className="container mx-auto px-4 max-w-7xl">
+      <div className="py-8 text-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 place-items-center md:py-12">
+        <ProjectCard
+          iconSrc="/assets/stock-1.jpg"
+          iconAlt="Background"
+          title={t("ProjectCard.GusCss.title")}
+          description={t("ProjectCard.GusCss.description")}
+          tag={["CSS", "Framework", "Epitech"]}
+          date="16/03/2025"
+          slug="guscss"
+        />
         <ProjectCard
           iconSrc="/assets/stock-1.jpg"
           iconAlt="Background"
