@@ -11,7 +11,7 @@ export default function TagCard({
     iconSrc,
     iconAlt = "Icon",
     title
-    }: TagCardProps) {
+    }: Readonly<TagCardProps>) {
     return (
         <Card className="flex flex-row items-center gap-3 p-4">
             <div className="w-8 h-8 flex-shrink-0 flex items-center justify-center">

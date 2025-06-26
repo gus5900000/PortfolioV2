@@ -60,10 +60,6 @@
       "title": "NetNinja",
       "description": "Prototype of an iOS application, this project was completed during the Apple Foundation Program training !"
     },
-    "Toolbox": {
-      "title": "Toolbox",
-      "description": "I created a toolbox that translates and corrects sentences, as well as a shortcut system that opens files."
-    },
     "SpaceInvader": {
       "title": "Space Invader",
       "description": "I recoded the famous Space Invaders game in Python from scratch !"

@@ -13,7 +13,7 @@ export default function ButtonCustom({
     title,
     icon,
     href = "/projects",
-}: ButtonCustomProps) {
+}: Readonly<ButtonCustomProps>) {
     const renderIcon = () => {
         switch (icon) {
             case "chevron":

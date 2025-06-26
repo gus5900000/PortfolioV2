@@ -13,7 +13,7 @@ export default function SkillCard({
     iconAlt = "Icon",
     title,
     description
-}: SkillCardProps) {
+}: Readonly<SkillCardProps>) {
     return (
         <Card className="p-4 my-2 md:my-6 bg-white dark:bg-zinc-900 text-zinc-800 dark:text-white border border-zinc-200 dark:border-zinc-800 
         transition-all duration-300 ease-in-out hover:-translate-y-1 

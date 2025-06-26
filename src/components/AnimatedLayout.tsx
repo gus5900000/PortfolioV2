@@ -3,7 +3,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useEffect, useState } from 'react';
 
-export default function AnimatedLayout({ children }: { children: React.ReactNode }) {
+export default function AnimatedLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {

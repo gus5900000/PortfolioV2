@@ -7,7 +7,7 @@ interface TagBadgeProps {
   className?: string;
 }
 
-export function TagBadge({ tag, className = "" }: TagBadgeProps) {
+export function TagBadge({ tag, className = "" }: Readonly<TagBadgeProps>) {
 
 const colorVariants: Record<string, string> = {
     PHP: "bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 border-purple-200 dark:border-purple-700 hover:bg-purple-200 dark:hover:bg-purple-900/50",
@@ -23,7 +23,6 @@ const colorVariants: Record<string, string> = {
     NextJS: "bg-black/10 dark:bg-white/10 text-black dark:text-white border-black/20 dark:border-white/20 hover:bg-black/20 dark:hover:bg-white/20",
     TypeScript: "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 border-blue-200 dark:border-blue-700 hover:bg-blue-200 dark:hover:bg-blue-900/50",
     TailwindCSS: "bg-sky-100 dark:bg-sky-900/30 text-sky-700 dark:text-sky-300 border-sky-200 dark:border-sky-700 hover:bg-sky-200 dark:hover:bg-sky-900/50",
-    Toolbox: "bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 border-amber-200 dark:border-amber-700 hover:bg-amber-200 dark:hover:bg-amber-900/50",
     Python: "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 border-green-200 dark:border-green-700 hover:bg-green-200 dark:hover:bg-green-900/50",
     PyQt5: "bg-lime-100 dark:bg-lime-900/30 text-lime-700 dark:text-lime-300 border-lime-200 dark:border-lime-700 hover:bg-lime-200 dark:hover:bg-lime-900/50",
     API: "bg-violet-100 dark:bg-violet-900/30 text-violet-700 dark:text-violet-300 border-violet-200 dark:border-violet-700 hover:bg-violet-200 dark:hover:bg-violet-900/50",

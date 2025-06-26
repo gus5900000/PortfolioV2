@@ -24,7 +24,7 @@ export default function ProjectCard({
   tag,
   date,
   slug,
-}: ProjectCardProps) {
+}: Readonly<ProjectCardProps>) {
 
   const { locale } = useParams();
 

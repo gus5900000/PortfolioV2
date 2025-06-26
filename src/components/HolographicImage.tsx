@@ -11,7 +11,7 @@ interface HolographicImageProps {
   className?: string;
 }
 
-export default function HolographicImage({ src, alt, width, height, className = '' }: HolographicImageProps) {
+export default function HolographicImage({ src, alt, width, height, className = '' }: Readonly<HolographicImageProps>) {
   // Initialize states
   const [hover, setHover] = useState(false);
   const [rotation, setRotation] = useState({ x: 0, y: 0 });

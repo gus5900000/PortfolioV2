@@ -44,15 +44,6 @@ export default function ProjectsPage() {
           slug="netninja"
         />
         <ProjectCard
-          iconSrc="/assets/stock-1.jpg"
-          iconAlt="Background"
-          title={t("ProjectCard.Toolbox.title")}
-          description={t("ProjectCard.Toolbox.description")}
-          tag={["Toolbox", "Python", "PyQt5", "API"]}
-          date="07/02/2024"
-          slug="toolbox"
-        />
-        <ProjectCard
           iconSrc="/assets/stock-2.jpg"
           iconAlt="Background"
           title={t("ProjectCard.SpaceInvader.title")}
