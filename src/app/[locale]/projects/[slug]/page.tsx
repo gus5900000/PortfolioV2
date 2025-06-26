@@ -90,7 +90,7 @@ export async function generateMetadata({
     
     return {
       title: `${data.title} | Augustin Verissimo`,
-      description: data.description || `Découvrez le projet ${data.title}`,
+      description: data.description ?? `Découvrez le projet ${data.title}`,
       openGraph: {
         title: data.title,
         description: data.description,
@@ -104,7 +104,7 @@ export async function generateMetadata({
   }
 }
 
-async function ProjectContent({ slug, locale }: PageParams) {
+async function ProjectContent({ slug, locale }: Readonly<PageParams>) {
   const t = await getTranslations();
   
   try {
@@ -127,7 +127,7 @@ async function ProjectContent({ slug, locale }: PageParams) {
             <div className="relative w-full h-64 mb-6 rounded-lg overflow-hidden">
               <Image
                 src={data.img}
-                alt={data.img_alt || data.title || 'Project image'}
+                alt={data.img_alt ?? data.title || 'Project image'}
                 fill
                 className="object-cover"
               />
