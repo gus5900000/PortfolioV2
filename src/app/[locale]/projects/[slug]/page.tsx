@@ -127,7 +127,7 @@ async function ProjectContent({ slug, locale }: Readonly<PageParams>) {
             <div className="relative w-full h-64 mb-6 rounded-lg overflow-hidden">
               <Image
                 src={data.img}
-                alt={data.img_alt ?? data.title || 'Project image'}
+                alt={data.img_alt || data.title || 'Project image'}
                 fill
                 className="object-cover"
               />
