@@ -12,7 +12,7 @@ interface ButtonCustomProps {
 export default function ButtonCustom({
     title,
     icon,
-    href = "/projects",
+    href = "/#projects",
 }: Readonly<ButtonCustomProps>) {
     const renderIcon = () => {
         switch (icon) {

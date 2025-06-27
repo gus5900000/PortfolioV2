@@ -29,7 +29,7 @@ export default function ProjectCard({
   const { locale } = useParams();
 
   return (
-    <Link href={`/${locale}/projects/${slug}`} className="no-underline">
+    <Link href={`/${locale}/${slug}`} className="no-underline">
       <Card className="pt-0 w-80 h-[500px] flex flex-col bg-white dark:bg-zinc-900 text-zinc-800 dark:text-white border border-zinc-200 dark:border-zinc-800 
       transition-all duration-300 ease-in-out hover:-translate-y-1 text-justify hover:shadow-[0_10px_25px_-5px_rgba(221,69,192,0.4),0_8px_10px_-6px_rgba(221,69,192,0.2)] dark:hover:shadow-[0_10px_25px_-5px_rgba(221,69,192,0.5),0_8px_15px_-6px_rgba(221,69,192,0.3)] relative
       hover:border-[#dd45c0]/30 cursor-pointer overflow-hidden
