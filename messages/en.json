@@ -48,6 +48,10 @@
       "title": "Epigusto",
       "description": "2D retro-style platformer developed in 48 hours during an Epitech hackathon."
     },
+    "TweetAcademie": {
+      "title": "Tweet Academie",
+      "description": "A Twitter-inspired microblogging web app built in a team using MVC architecture with PHP, JS, and Tailwind/Skeleton."
+    },
     "GusCss": {
       "title": "GusCSS",
       "description": "GusCSS is a lightweight and modular CSS framework that allows for the rapid creation of modern and responsive interfaces, inspired by Bootstrap but simplified for learning and customization."

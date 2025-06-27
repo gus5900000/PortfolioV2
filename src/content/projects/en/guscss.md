@@ -16,13 +16,13 @@ tags:
 
 GusCSS is a lightweight and modular CSS framework designed to help developers quickly build modern, responsive user interfaces. Inspired by Bootstrap, it focuses on simplicity, customization, and ease of use. It includes essential components such as grids, buttons, modals, tabs, and more, making it ideal for both learning and smaller-scale projects.
 
-#### Design
+#### Conception
 
 The framework follows a modular architecture: each component has its own SCSS file, making the codebase easier to maintain, extend, and understand. SCSS variables centralize customization options such as colors, spacing, and breakpoints. Mixins are used to dynamically generate utility classes for margins, padding, and columns.
 
 The project was developed collaboratively in an educational context at Epitech, with special attention to documentation, component consistency, and accessibility. The goal was to build a robust yet accessible tool that beginners could adopt quickly and understand easily.
 
-#### Features
+#### Fonctionnalités
 
 The application includes the following features:
 
@@ -38,6 +38,6 @@ The application includes the following features:
 - **Accordions**: Expandable/collapsible content sections.  
 - **Padding & Margin**: SCSS utility classes to control spacing inside and around elements.  
 
-#### Preview
+### Aperçu
 
 [View full documentation on gus-css.vercel.app](https://gus-css.vercel.app/home.html)

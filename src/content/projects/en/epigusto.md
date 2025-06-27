@@ -17,12 +17,12 @@ tags:
 
 **Epigusto** is a 2D platformer with a retro aesthetic, developed in just 48 hours during an Epitech hackathon. The player controls a character in an endless runner, dodging obstacles, collecting items, and surviving as long as possible. As time goes on, the game speeds up, making the challenge more intense and exciting.
 
-#### Design
+#### Conception
 
 The project was created during a 48-hour hackathon by a team of three developers. Due to the tight time constraint, we focused on a simple but effective concept: an automatic runner with pixel art visuals that are both accessible and visually striking.  
 To add a fun twist, the entire codebase was written in Italian. We prioritized responsive controls, smooth animations, and balanced random elements. Sound design also played a key role, with all effects custom-made by the team.
 
-#### Features
+#### Fonctionnalités
 
 The application includes the following features:
 
@@ -35,7 +35,7 @@ The application includes the following features:
 - **Easter egg**: A hidden secret awaits the most curious players.  
 - **Scoreboard**: Players can compare their performance and compete.
 
-#### Preview
+### Aperçu
 
 [View the GitHub repository](https://github.com/TPilate/Epigusto)  
 [Try the live demo](https://epigusto.augustin-verissimo.fr/)

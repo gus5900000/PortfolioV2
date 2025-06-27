@@ -16,13 +16,23 @@ export default function ProjectsPage() {
           date="09/04/2025"
           slug="epigusto"
         />
+        {/* Ajout de Tweet */}
+        <ProjectCard
+          iconSrc="/assets/stock-1.jpg"
+          iconAlt="Background"
+          title={t("ProjectCard.TweetAcademie.title")}
+          description={t("ProjectCard.TweetAcademie.description")}
+          tag={["PHP", "JavaScript", "TailwindCSS", "MVC", "Epitech"]}
+          date="16/03/2025"
+          slug="tweet-academie"
+        />
         <ProjectCard
           iconSrc="/assets/stock-1.jpg"
           iconAlt="Background"
           title={t("ProjectCard.GusCss.title")}
           description={t("ProjectCard.GusCss.description")}
           tag={["CSS", "Framework", "Epitech"]}
-          date="16/03/2025"
+          date="06/03/2025"
           slug="guscss"
         />
         <ProjectCard

@@ -47,6 +47,10 @@
       "title": "Epigusto",
       "description": "Jeu de plateforme 2D au style rétro développé en 48h lors d’un hackathon Epitech."
     },
+    "TweetAcademie": {
+      "title": "Tweet Academie",
+      "description": "Application web de microblogging inspirée de Twitter, développée en équipe avec une architecture MVC, PHP, JS et Tailwind/Skeleton."
+    },
     "GusCss": {
       "title": "GusCSS",
       "description": "GusCSS est un framework CSS léger et modulaire permettant de créer rapidement des interfaces modernes et responsives, inspiré de Bootstrap mais simplifié pour l'apprentissage et la personnalisation"
