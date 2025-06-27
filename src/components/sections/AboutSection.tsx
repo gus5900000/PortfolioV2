@@ -45,7 +45,7 @@ export default function AboutSection() {
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-muted text-primary">
                   <CVIcon />
                 </div>
-                <span className="text-foreground font-medium underline underline-offset-1">Mon CV</span>
+                <span className="text-foreground font-medium underline underline-offset-1">{t('AboutCard.cv')}</span>
               </button>
             </div>
           </div>

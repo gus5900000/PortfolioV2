@@ -7,7 +7,8 @@
       "junior": "Junior"
     },
     "footer": {
-      "content":"Pour toute question, demande de renseignement."
+      "content":"Pour toute question, demande de renseignement.",
+      "contact": "Disponible pour échanger"
     }
   },
   "Header": {
@@ -82,7 +83,8 @@
   },
   "AboutCard": {
     "title": "À propos de moi",
-    "content": "Depuis mon enfance, je suis passionné par l'informatique et les nouvelles technologies. J'ai commencé à programmer en 2018 avec Python au lycée. Après avoir intégré l'E2C et la Web@cademie by Epitech, j'ai enrichi mes compétences grâce à des stages chez JetDev et Sergic."
+    "content": "Depuis mon enfance, je suis passionné par l'informatique et les nouvelles technologies. J'ai commencé à programmer en 2018 avec Python au lycée. Après avoir intégré l'E2C et la Web@cademie by Epitech, j'ai enrichi mes compétences grâce à des stages chez JetDev et Sergic.",
+    "cv": "Mon CV"
   },
   "ParcoursProfessionel": {
     "title": "Expériences Professionnelles",

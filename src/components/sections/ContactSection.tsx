@@ -13,7 +13,7 @@ export default function ContactSection() {
           </h3>
           <div className="flex justify-center md:justify-start">
             <ButtonCustom
-              title="Contactez moi"
+              title={t("HomePage.footer.contact")}
               icon="envelope"
               href="augustin.verissimo@gmail.com"
             />

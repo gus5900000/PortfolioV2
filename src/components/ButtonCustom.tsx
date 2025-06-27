@@ -25,7 +25,7 @@ export default function ButtonCustom({
         }
     };
 
-    const commonButtonClass = "group w-[200px] mt-4 md:h-12 md:mt-0 flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 hover:translate-y-[-2px] transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30";
+    const commonButtonClass = "text-white group min-w-[200px] w-auto mt-4 md:h-12 md:mt-0 flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 hover:translate-y-[-2px] transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30";
     const commonLinkClass = "flex items-center";
 
     return (
