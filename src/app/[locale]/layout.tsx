@@ -5,7 +5,6 @@ import { notFound } from "next/navigation";
 import { routing } from "../../../i18n/routing";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import Navbar from "@/components/NavBar";
-import AnimatedLayout from "@/components/AnimatedLayout";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -38,11 +37,9 @@ export default async function LocaleLayout({
           disableTransitionOnChange
         >
           <NextIntlClientProvider>
-            <AnimatedLayout>
-              <Navbar />
-              <main>{children}</main>
-              <Footer />
-            </AnimatedLayout>
+            <Navbar />
+            <main>{children}</main>
+            <Footer />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>

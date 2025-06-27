@@ -8,8 +8,6 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import { TagBadge } from "@/components/TagBadge";
 import { IframeStyles } from "@/components/IframeStyles";
-import Link from "next/link";
-import { GithubIcon } from "@/components/icons";
 import ButtonCustom from "@/components/ButtonCustom";
 import { getTranslations } from "next-intl/server";
 import { promises as fsPromises } from 'fs';

@@ -7,7 +7,8 @@
       "junior": "Junior"
     },
     "footer": {
-      "content": "For any question, request for information."
+      "content": "For any question, request for information.",
+      "contact": "Feel free to contact me"
     }
   },
   "Header": {
@@ -36,6 +37,9 @@
     "title": "My Latest Projects",
     "description": "Discover my latest projects, completed during my free time as a self-taught learner or during training and internships.",
     "button": "All Projects"
+  },
+  "ProjectsSection": {
+    "loadMore": "Load More"
   },
   "ProjectContent": {
     "description": "Description",
@@ -79,7 +83,8 @@
   },
   "AboutCard": {
     "title": "About Me",
-    "content": "Since childhood, I have been passionate about computers and new technologies. I started programming in 2018 with Python in high school. After joining E2C and the Web@cademie by Epitech, I enhanced my skills through internships at JetDev and Sergic."
+    "content": "Since childhood, I have been passionate about computers and new technologies. I started programming in 2018 with Python in high school. After joining E2C and the Web@cademie by Epitech, I enhanced my skills through internships at JetDev and Sergic.",
+    "cv": "My CV"
   },
   "ParcoursProfessionel": {
     "title": "Professional Experiences",

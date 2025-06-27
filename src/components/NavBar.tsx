@@ -1,34 +1,31 @@
 'use client';
 import Image from "next/image";
-import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
-import { usePathname } from "next/navigation";
 import ThemeSwitcher from "@/components/ThemeSwitcher";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { useScrollSpy } from "@/hooks/useScrollSpy";
 
 
 export default function Navbar() {
     const t = useTranslations("Header.navigations");
     const [isOpen, setIsOpen] = useState(false);
 
-    const categories = ["home", "projects", "about"];
+    const categories = ["home", "projects", "about", "contact"];
+    const activeSection = useScrollSpy(categories, 100);
 
     const socialLinks = [
-        { name: "GitHub", url: "https://github.com/gus5900000", icon: "/icons/github.svg" },
+        { name: "GitHub", url: "https://github.com/GusEpitech", icon: "/icons/github.svg" },
         { name: "LinkedIn", url: "https://www.linkedin.com/in/augustin-verissimo-a48b95231/", icon: "/icons/linkedin.svg" }
     ];
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
-    const pathname = usePathname()
 
     const isLinkActive = (category: string) => {
-        if (category === "home") {
-            return pathname === "/" || pathname === "/fr" || pathname === "/en";
-        }
-        return pathname.includes(`/${category}`);
+        // Pour une One Page, on utilise le scroll spy
+        return activeSection === category;
     };
 
     return (
@@ -67,15 +64,15 @@ export default function Navbar() {
                 <ul className="flex gap-12 border border-gray-200 dark:border-zinc-600 rounded-full px-4 py-4 bg-white dark:bg-zinc-900 shadow-md">
                     {categories.map((categorie) => (
                         <li key={categorie} className="cursor-pointer">
-                            <Link
-                                href={`/${categorie === "home" ? "" : categorie}`}
+                            <a
+                                href={`#${categorie === "home" ? "home" : categorie}`}
                                 className={`transition-all hover:scale-110 ${isLinkActive(categorie)
                                     ? "text-black dark:text-white font-medium"
                                     : "text-gray-500 dark:text-zinc-400 hover:text-black dark:hover:text-white"
                                     }`}
                             >
                                 {t(`${categorie}`)}
-                            </Link>
+                            </a>
                         </li>
                     ))}
                 </ul>
@@ -116,13 +113,13 @@ export default function Navbar() {
                 <ul className="flex flex-col items-center gap-4 py-4 bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-600 shadow-md mx-4 rounded-lg">
                     {categories.map((categorie) => (
                         <li key={categorie} className="cursor-pointer">
-                            <Link
-                                href={`/${categorie === "home" ? "" : categorie}`}
+                            <a
+                                href={`#${categorie === "home" ? "home" : categorie}`}
                                 onClick={() => setIsOpen(false)}
                                 className={isLinkActive(categorie) ? " font-medium" : "text-zinc-400"}
                             >
                                 {t(`${categorie}`)}
-                            </Link>
+                            </a>
                         </li>
                     ))}
                     <div className="flex gap-4 mt-4">
