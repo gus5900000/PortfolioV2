@@ -7,7 +7,7 @@
       "junior": "Junior"
     },
     "footer": {
-      "content":"For any question, request for information."
+      "content": "For any question, request for information."
     }
   },
   "Header": {
@@ -44,9 +44,13 @@
     "overview": "Overview"
   },
   "ProjectCard": {
+    "Epigusto": {
+      "title": "Epigusto",
+      "description": "2D retro-style platformer developed in 48 hours during an Epitech hackathon."
+    },
     "GusCss": {
       "title": "GusCSS",
-      "description": "Lightweight CSS framework inspired by Bootstrap."
+      "description": "GusCSS is a lightweight and modular CSS framework that allows for the rapid creation of modern and responsive interfaces, inspired by Bootstrap but simplified for learning and customization."
     },
     "Luvio": {
       "title": "Luvio",

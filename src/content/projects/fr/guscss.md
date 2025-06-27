@@ -38,6 +38,6 @@ L'application contient les fonctionnalités suivantes :
 - **Accordéons** : Composant pour afficher/masquer du contenu de façon dynamique.  
 - **Padding & Margin** : Utilitaires SCSS pour gérer les espacements internes et externes.  
 
-#### Aperçu
+### Aperçu
 
-Voici un aperçu [Voir la documentation complète sur gus-css.vercel.app](https://gus-css.vercel.app/home.html)
+[Voir la documentation complète](https://gus-css.vercel.app/home.html)

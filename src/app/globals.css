@@ -129,3 +129,13 @@
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   margin: 2rem 0;
 }
+
+/* Styles pour les liens dans le contenu des projets */
+.prose a {
+  @apply text-purple-500 dark:text-purple-400 underline decoration-purple-500/50 dark:decoration-purple-400/50 underline-offset-2;
+  transition: all 0.2s ease-in-out;
+}
+
+.prose a:hover {
+  @apply text-purple-600 dark:text-purple-300 decoration-purple-600 dark:decoration-purple-300 decoration-2;
+}

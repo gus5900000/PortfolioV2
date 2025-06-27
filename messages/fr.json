@@ -43,9 +43,13 @@
     "overview": "Aperçu"
   },
   "ProjectCard": {
+    "Epigusto": {
+      "title": "Epigusto",
+      "description": "Jeu de plateforme 2D au style rétro développé en 48h lors d’un hackathon Epitech."
+    },
     "GusCss": {
       "title": "GusCSS",
-      "description": "Framework CSS léger inspiré de Bootstrap"
+      "description": "GusCSS est un framework CSS léger et modulaire permettant de créer rapidement des interfaces modernes et responsives, inspiré de Bootstrap mais simplifié pour l'apprentissage et la personnalisation"
     },
     "Luvio": {
       "title": "Luvio",

@@ -10,6 +10,15 @@ export default function ProjectsPage() {
         <ProjectCard
           iconSrc="/assets/stock-1.jpg"
           iconAlt="Background"
+          title={t("ProjectCard.Epigusto.title")}
+          description={t("ProjectCard.Epigusto.description")}
+          tag={["Jeu", "Hackathon", "Epitech", "Retro"]}
+          date="09/04/2025"
+          slug="epigusto"
+        />
+        <ProjectCard
+          iconSrc="/assets/stock-1.jpg"
+          iconAlt="Background"
           title={t("ProjectCard.GusCss.title")}
           description={t("ProjectCard.GusCss.description")}
           tag={["CSS", "Framework", "Epitech"]}

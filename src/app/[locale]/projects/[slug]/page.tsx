@@ -33,7 +33,7 @@ const projectCache = new Map<string, { data: ProjectData; content: string }>();
 
 async function getProjectData(slug: string, locale: string): Promise<{ data: ProjectData; content: string }> {
   const cacheKey = `${slug}-${locale}`;
-  
+
   if (projectCache.has(cacheKey)) {
     return projectCache.get(cacheKey)!;
   }
@@ -46,17 +46,17 @@ async function getProjectData(slug: string, locale: string): Promise<{ data: Pro
     locale,
     `${slug}.md`
   );
-  
+
   const fileContent = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(fileContent);
   const processedContent = await remark()
     .use(remarkGfm)
     .use(html, { sanitize: false })
     .process(content);
-  
+
   const result = { data, content: processedContent.toString() };
   projectCache.set(cacheKey, result);
-  
+
   return result;
 }
 
@@ -67,13 +67,13 @@ function validateParams(slug: string, locale: string): boolean {
   if (!slug || !slugRegex.test(slug)) {
     return false;
   }
-  
+
   // Validation de la locale
   const allowedLocales = ['fr', 'en'];
   if (!locale || !allowedLocales.includes(locale)) {
     return false;
   }
-  
+
   return true;
 }
 
@@ -84,10 +84,10 @@ export async function generateMetadata({
   params: Promise<{ slug: string; locale: string }>
 }) {
   const { slug, locale } = await params;
-  
+
   try {
     const { data } = await getProjectData(slug, locale);
-    
+
     return {
       title: `${data.title} | Augustin Verissimo`,
       description: data.description ?? `Découvrez le projet ${data.title}`,
@@ -106,7 +106,7 @@ export async function generateMetadata({
 
 async function ProjectContent({ slug, locale }: Readonly<PageParams>) {
   const t = await getTranslations();
-  
+
   try {
     const { data, content } = await getProjectData(slug, locale);
 
@@ -115,8 +115,8 @@ async function ProjectContent({ slug, locale }: Readonly<PageParams>) {
       description: content.match(/<h4[^>]*>Description<\/h4>([\s\S]*?)(?=<h4|<h3|<h2|$)/i)?.[1] || data.description,
       conception: content.match(/<h4[^>]*>Conception<\/h4>([\s\S]*?)(?=<h4|<h3|<h2|$)/i)?.[1] || "",
       fonctionnalites: content.match(/<h4[^>]*>Fonctionnalités<\/h4>([\s\S]*?)(?=<h4|<h3|<h2|$)/i)?.[1] || "",
-      apercu: content.match(/<h2[^>]*>Aperçu<\/h2>([\s\S]*?)(?=<h2|$)/i)?.[1] || 
-              content.match(/<h3[^>]*>Aperçu<\/h3>([\s\S]*?)(?=<h3|<h2|$)/i)?.[1] || "",
+      apercu: content.match(/<h2[^>]*>Aperçu<\/h2>([\s\S]*?)(?=<h2|$)/i)?.[1] ||
+        content.match(/<h3[^>]*>Aperçu<\/h3>([\s\S]*?)(?=<h3|<h2|$)/i)?.[1] || "",
       github: content.match(/<a href="(https:\/\/github\.com\/[^"]+)"[^>]*>/i)?.[1] || "#"
     };
 
@@ -133,25 +133,25 @@ async function ProjectContent({ slug, locale }: Readonly<PageParams>) {
               />
             </div>
           )}
-          
+
           {/* Header section with title, button and tags */}
           <div className="mb-6">
             {/* Flex container for title and button */}
             <div className="flex justify-between items-center mb-3">
               <h1 className="text-4xl font-bold text-purple-500">{sections.title || data.title || 'Projet'}</h1>
-                <ButtonCustom
-                  title="Retour aux projets"
-                  icon="chevron"
-                />
+              <ButtonCustom
+                title="Retour aux projets"
+                icon="chevron"
+              />
             </div>
-            
+
             {/* Tags */}
             {data.tags && Array.isArray(data.tags) && (
-                <div className="flex flex-wrap gap-2 mb-2">
+              <div className="flex flex-wrap gap-2 mb-2">
                 {data.tags.map((tag: string, index: number) => (
                   <TagBadge key={index} tag={tag} />
                 ))}
-                </div>
+              </div>
             )}
           </div>
           {/* Section Description */}
@@ -159,34 +159,24 @@ async function ProjectContent({ slug, locale }: Readonly<PageParams>) {
             <h2 className="text-2xl font-semibold mb-2 ">{t("ProjectContent.description")}</h2>
             <div className="text-gray-500 dark:text-gray-400 prose prose-invert" dangerouslySetInnerHTML={{ __html: sections.description || '' }}></div>
           </div>
-            {/* Section Conception */}
+          {/* Section Conception */}
           <div className="mb-8">
             <h2 className="text-2xl font-semibold mb-2 ">{t("ProjectContent.design")}</h2>
             <div className="text-gray-500 dark:text-gray-400 prose prose-invert" dangerouslySetInnerHTML={{ __html: sections.conception || '' }}></div>
           </div>
-          
+
           {/* Section Fonctionnalités */}
           <div className="mb-8">
             <h2 className="text-2xl font-semibold mb-2 ">{t("ProjectContent.features")}</h2>
             <div className="text-gray-500 dark:text-gray-400 prose prose-invert" dangerouslySetInnerHTML={{ __html: sections.fonctionnalites || '' }}></div>
           </div>
-          
+
           {/* Section Aperçu */}
           <div className="mb-8">
             <h2 className="text-2xl font-semibold mb-2 ">{t("ProjectContent.overview")}</h2>
             <div className="text-gray-500 dark:text-gray-400 prose prose-invert" dangerouslySetInnerHTML={{ __html: sections.apercu || '' }}></div>
           </div>
-          
-          {/* GitHub Link */}
-          {sections.github && sections.github !== "#" && (
-            <div className="mb-8">
-              <Link href={sections.github} className="text-purple-400 hover:text-purple-300 flex items-center gap-2" target="_blank" rel="noopener noreferrer">
-                <GithubIcon />
-                Code source sur github
-              </Link>
-            </div>
-          )}
-          
+
           <IframeStyles />
         </div>
       </div>
@@ -208,14 +198,14 @@ export async function generateStaticParams() {
       try {
         await fsPromises.access(projectsDir);
         const files = await fsPromises.readdir(projectsDir);
-        
+
         const localeParams = files
           .filter(filename => filename.endsWith(".md"))
           .map(filename => ({
             slug: filename.replace(".md", ""),
             locale
           }));
-          allParams.push(...localeParams);
+        allParams.push(...localeParams);
       } catch {
         console.warn(`Directory not accessible: ${projectsDir}`);
       }
@@ -228,16 +218,16 @@ export async function generateStaticParams() {
   }
 }
 
-export default async function Page({ 
-  params 
-}: { 
-  params: Promise<{ slug: string; locale: string }> 
+export default async function Page({
+  params
+}: {
+  params: Promise<{ slug: string; locale: string }>
 }) {
   const { slug, locale } = await params;
-  
+
   if (!slug || !locale || !validateParams(slug, locale)) {
     notFound();
   }
-  
+
   return <ProjectContent slug={slug} locale={locale} />;
 }
