@@ -5,7 +5,7 @@ export default function ContactSection() {
   const t = useTranslations();
 
   return (
-    <section id="contact" className="py-10">
+    <section id="contact">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center w-full md:text-left md:flex md:justify-start md:items-center md:py-32">
           <h3 className="text-4xl md:text-6xl font-bold mb-4 md:mb-0 md:mr-8">

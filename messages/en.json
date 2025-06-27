@@ -37,6 +37,9 @@
     "description": "Discover my latest projects, completed during my free time as a self-taught learner or during training and internships.",
     "button": "All Projects"
   },
+  "ProjectsSection": {
+    "loadMore": "Load More"
+  },
   "ProjectContent": {
     "description": "Description",
     "design": "Design",

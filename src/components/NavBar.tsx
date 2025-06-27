@@ -11,7 +11,7 @@ export default function Navbar() {
     const t = useTranslations("Header.navigations");
     const [isOpen, setIsOpen] = useState(false);
 
-    const categories = ["home", "about", "projects", "contact"];
+    const categories = ["home", "projects", "about", "contact"];
     const activeSection = useScrollSpy(categories, 100);
 
     const socialLinks = [

@@ -37,6 +37,9 @@
     "description": "Découvrez mes derniers projets, réalisés pendant mon temps libre en autodidacte ou lors de formations et stages.",
     "button": "Tous les projets"
   },
+  "ProjectsSection": {
+    "loadMore": "Charger plus"
+  },
   "ProjectContent": {
     "description": "Description",
     "design": "Conception",
