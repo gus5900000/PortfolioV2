@@ -14,7 +14,8 @@
     "navigations": {
       "home": "Accueil",
       "about": "À propos",
-      "projects": "Projet"
+      "projects": "Projet",
+      "contact": "Contact"
     }
   },
   "SkillCard": {
