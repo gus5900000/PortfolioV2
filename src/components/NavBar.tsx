@@ -15,7 +15,7 @@ export default function Navbar() {
     const activeSection = useScrollSpy(categories, 100);
 
     const socialLinks = [
-        { name: "GitHub", url: "https://github.com/gus5900000", icon: "/icons/github.svg" },
+        { name: "GitHub", url: "https://github.com/GusEpitech", icon: "/icons/github.svg" },
         { name: "LinkedIn", url: "https://www.linkedin.com/in/augustin-verissimo-a48b95231/", icon: "/icons/linkedin.svg" }
     ];
 
