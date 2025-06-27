@@ -1,7 +1,7 @@
 ---
 title: Epigusto
 publishDate: 2025-04-09 12:00:00
-img: /assets/stock-3.jpg
+img: /assets/stock-8.jpg
 img_alt: Capture d’écran du jeu Epigusto montrant le personnage principal en pleine course
 description: Jeu de plateforme 2D au style rétro développé en 48h lors d’un hackathon Epitech.
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Luvio
 publishDate: 2025-02-11 12:00:00
-img: /assets/stock-1.jpg
+img: /assets/stock-5.jpg
 img_alt: Interface de l'application de rencontre Luvio
 description: Application de rencontres moderne développée en PHP avec une architecture MVC, permettant aux utilisateurs de trouver l'amour basé sur leurs centres d'intérêts.
 tags:

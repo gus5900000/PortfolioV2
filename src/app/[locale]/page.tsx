@@ -86,20 +86,20 @@ export default function HomePage() {
           <ProjectCard
             iconSrc="/assets/stock-1.jpg"
             iconAlt="Background"
-            title={t("ProjectCard.Luvio.title")}
-            description={t("ProjectCard.Luvio.description")}
-            tag={["PHP", "MySQL", "JavaScript", "CSS", "API REST", "Epitech"]}
-            date="11/02/2025"
-            slug="luvio"
+            title={t("ProjectCard.Epigusto.title")}
+            description={t("ProjectCard.Epigusto.description")}
+            tag={["Jeu", "Hackathon", "Epitech", "Retro"]}
+            date="09/04/2025"
+            slug="epigusto"
           />
           <ProjectCard
-            iconSrc="/assets/stock-3.jpg"
+            iconSrc="/assets/stock-1.jpg"
             iconAlt="Background"
-            title={t("ProjectCard.Cinéscope.title")}
-            description={t("ProjectCard.Cinéscope.description")}
-            tag={["PHP", "MySQL", "JavaScript", "CSS", "Epitech"]}
-            date="11/02/2025"
-            slug="cinescope"
+            title={t("ProjectCard.TweetAcademie.title")}
+            description={t("ProjectCard.TweetAcademie.description")}
+            tag={["PHP", "JavaScript", "TailwindCSS", "MVC", "Epitech"]}
+            date="16/03/2025"
+            slug="tweet-academie"
           />
           <ProjectCard
             iconSrc="/assets/stock-3.jpg"

@@ -8,7 +8,7 @@ export default function ProjectsPage() {
     <div className="container mx-auto px-4 max-w-7xl">
       <div className="py-8 text-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 place-items-center md:py-12">
         <ProjectCard
-          iconSrc="/assets/stock-1.jpg"
+          iconSrc="/assets/stock-8.jpg"
           iconAlt="Background"
           title={t("ProjectCard.Epigusto.title")}
           description={t("ProjectCard.Epigusto.description")}
@@ -16,9 +16,8 @@ export default function ProjectsPage() {
           date="09/04/2025"
           slug="epigusto"
         />
-        {/* Ajout de Tweet */}
         <ProjectCard
-          iconSrc="/assets/stock-1.jpg"
+          iconSrc="/assets/stock-7.jpg"
           iconAlt="Background"
           title={t("ProjectCard.TweetAcademie.title")}
           description={t("ProjectCard.TweetAcademie.description")}
@@ -27,7 +26,7 @@ export default function ProjectsPage() {
           slug="tweet-academie"
         />
         <ProjectCard
-          iconSrc="/assets/stock-1.jpg"
+          iconSrc="/assets/stock-6.png"
           iconAlt="Background"
           title={t("ProjectCard.GusCss.title")}
           description={t("ProjectCard.GusCss.description")}
@@ -36,7 +35,7 @@ export default function ProjectsPage() {
           slug="guscss"
         />
         <ProjectCard
-          iconSrc="/assets/stock-1.jpg"
+          iconSrc="/assets/stock-5.jpg"
           iconAlt="Background"
           title={t("ProjectCard.Luvio.title")}
           description={t("ProjectCard.Luvio.description")}
@@ -45,7 +44,7 @@ export default function ProjectsPage() {
           slug="luvio"
         />
         <ProjectCard
-          iconSrc="/assets/stock-2.jpg"
+          iconSrc="/assets/stock-4.jpg"
           iconAlt="Background"
           title={t("ProjectCard.Cinéscope.title")}
           description={t("ProjectCard.Cinéscope.description")}
@@ -63,7 +62,7 @@ export default function ProjectsPage() {
           slug="ainao"
         />
         <ProjectCard
-          iconSrc="/assets/stock-4.jpg"
+          iconSrc="/assets/stock-2.jpg"
           iconAlt="Background"
           title={t("ProjectCard.NetNinja.title")}
           description={t("ProjectCard.NetNinja.description")}
@@ -72,7 +71,7 @@ export default function ProjectsPage() {
           slug="netninja"
         />
         <ProjectCard
-          iconSrc="/assets/stock-2.jpg"
+          iconSrc="/assets/stock-1.jpg"
           iconAlt="Background"
           title={t("ProjectCard.SpaceInvader.title")}
           description={t("ProjectCard.SpaceInvader.description")}

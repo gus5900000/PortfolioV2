@@ -1,7 +1,7 @@
 ---
 title: Tweet Académie
 publishDate: 2024-06-07 10:00:00
-img: /assets/stock-1.jpg
+img: /assets/stock-7.jpg
 img_alt: Logo de Tweet Académie
 description: Application web de microblogging inspirée de Twitter, développée en équipe avec une architecture MVC, PHP, JS et Tailwind/Skeleton.
 tags:

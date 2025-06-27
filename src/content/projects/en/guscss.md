@@ -1,7 +1,7 @@
 ---
 title: GusCSS
 publishDate: 2025-02-23 10:00:00
-img: /assets/stock-1.jpg
+img: /assets/stock-6.png
 img_alt: Preview of the GusCSS framework with components (grid, buttons, modals, etc.)
 description: GusCSS is a lightweight and modular CSS framework designed to quickly build modern, responsive interfaces. It is inspired by Bootstrap but simplified for learning and customization.
 tags:

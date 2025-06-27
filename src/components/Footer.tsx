@@ -4,7 +4,7 @@ export default function Footer() {
         <span className="block mb-2">
           Designed & Developed by{" "}
           <a
-            href="https://github.com/augustin-verissimo"
+            href="https://www.linkedin.com/in/augustin-verissimo-a48b95231/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-black dark:text-white hover:underline"

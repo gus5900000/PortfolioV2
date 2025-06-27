@@ -1,7 +1,7 @@
 ---
 title: Epigusto
 publishDate: 2025-04-09 12:00:00
-img: /assets/stock-3.jpg
+img: /assets/stock-8.jpg
 img_alt: Screenshot of the Epigusto game showing the main character mid-run
 description: 2D retro-style platformer developed in 48 hours during an Epitech hackathon.
 tags:

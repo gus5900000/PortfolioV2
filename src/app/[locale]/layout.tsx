@@ -6,7 +6,6 @@ import { routing } from "../../../i18n/routing";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import Navbar from "@/components/NavBar";
 import AnimatedLayout from "@/components/AnimatedLayout";
-import SEOProvider from "@/components/SEOProvider";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -39,12 +38,11 @@ export default async function LocaleLayout({
           disableTransitionOnChange
         >
           <NextIntlClientProvider>
-            <SEOProvider />
-              <AnimatedLayout>
-                <Navbar />
-                <main>{children}</main>
-                <Footer/>
-              </AnimatedLayout>
+            <AnimatedLayout>
+              <Navbar />
+              <main>{children}</main>
+              <Footer />
+            </AnimatedLayout>
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>

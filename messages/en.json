@@ -122,14 +122,6 @@
         "company": "JetDev",
         "type": "1-week Internship",
         "tasks": ["WordPress optimization", "SEO"]
-      },
-      {
-        "id": 4,
-        "period": "August 2021 - January 2024",
-        "title": "Temporary Worker",
-        "company": "Various Companies",
-        "type": "Temporary Missions",
-        "tasks": ["Various missions", "Adaptability", "Teamwork"]
       }
     ]
   },

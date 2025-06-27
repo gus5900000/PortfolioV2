@@ -1,7 +1,7 @@
 ---
 title: Cinéscope
 publishDate: 2025-02-11 12:00:00
-img: /assets/stock-3.jpg
+img: /assets/stock-4.jpg
 img_alt: Interface de gestion de cinéma
 description: Application web de gestion de cinéma développée en PHP, permettant la gestion des films, des séances et des abonnements.
 tags:

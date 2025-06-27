@@ -121,14 +121,6 @@
         "company": "JetDev",
         "type": "Stage d'une semaine",
         "tasks": ["Optimisation de WordPress", "SEO"]
-      },
-      {
-        "id": 4,
-        "period": "août 2021 - janv. 2024",
-        "title": "Intérim",
-        "company": "Diverses entreprises",
-        "type": "Missions temporaires",
-        "tasks": ["Missions diverses", "Adaptabilité", "Travail en équipe"]
       }
     ]
   },
