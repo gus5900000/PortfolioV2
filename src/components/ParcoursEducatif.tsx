@@ -70,7 +70,7 @@ const ParcoursEducatif = () => {
                                 transition={{ duration: 0.5, delay: 0.4 + index * 0.2 }}
                             >
                                 <Card className="border shadow-md hover:shadow-lg transition-all duration-300 border-blue-200">
-                                    <CardContent className="p-6">
+                                    <CardContent>
                                         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 mb-3">
                                             <h3 className="text-xl font-bold text-blue-600">{edu.title}</h3>
                                             <Badge variant="outline" className="h-fit whitespace-nowrap bg-blue-100 text-blue-600 border-blue-300">

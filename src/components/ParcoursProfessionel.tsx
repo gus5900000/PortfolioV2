@@ -70,7 +70,7 @@ const Timeline = () => {
                                 transition={{ duration: 0.5, delay: 0.4 + index * 0.2 }}
                             >
                                 <Card className="border shadow-md hover:shadow-lg transition-all duration-300" style={{ borderColor: "#6f2dff33" }}>
-                                    <CardContent className="p-6">
+                                    <CardContent>
                                         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 mb-3">
                                             <h3 className="text-xl font-bold" style={{ color: "#6f2dff" }}>{exp.title}</h3>
                                             <Badge variant="outline" className="h-fit whitespace-nowrap"

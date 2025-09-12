@@ -1,13 +1,13 @@
 {
   "HomePage": {
     "title": "Bonjour, je m'appelle Augustin Verissimo",
-    "subtitle": "En recherche d'une alternance pour septembre 2025 en tant que développeur web.",
+    "subtitle": "Actuellement en alternance chez Sergic en tant que développeur web.",
     "headerRole": {
       "developer": "Développeur",
       "junior": "Junior"
     },
     "footer": {
-      "content":"Pour toute question, demande de renseignement.",
+      "content": "Pour toute question, demande de renseignement.",
       "contact": "Disponible pour échanger"
     }
   },
@@ -30,7 +30,7 @@
     },
     "Futur": {
       "title": "Futur",
-      "description": "Recherche d'une alternance pour septembre 2025 en tant que développeur web."
+      "description": "Mon objectif est de devenir développeur full-stack et de participer à des projets qui ont un vrai impact."
     }
   },
   "PorjectHeader": {
@@ -83,7 +83,7 @@
   },
   "AboutCard": {
     "title": "À propos de moi",
-    "content": "Depuis mon enfance, je suis passionné par l'informatique et les nouvelles technologies. J'ai commencé à programmer en 2018 avec Python au lycée. Après avoir intégré l'E2C et la Web@cademie by Epitech, j'ai enrichi mes compétences grâce à des stages chez JetDev et Sergic.",
+    "content": "👋 Moi c’est Augustin, passionné de web et de nouvelles technologies depuis toujours. Actuellement en alternance chez Sergic comme développeur web, je travaille sur des projets concrets en Java Quarkus et Angular. Mon parcours à la Web@cademie by Epitech m’a permis de toucher à différents langages et frameworks (PHP, JavaScript, React) et de participer à des expériences marquantes comme un hackathon et être bénévole à VivaTech. 🚀 ",
     "cv": "Mon CV"
   },
   "ParcoursProfessionel": {

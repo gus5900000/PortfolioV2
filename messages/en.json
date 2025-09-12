@@ -1,7 +1,7 @@
 {
   "HomePage": {
     "title": "Hello, my name is Augustin Verissimo",
-    "subtitle": "Looking for a work-study program for September 2025 as a web developer.",
+    "subtitle": "Currently in a work-study program at Sergic as a web developer.",
     "headerRole": {
       "developer": "Developer",
       "junior": "Junior"
@@ -30,7 +30,7 @@
     },
     "Futur": {
       "title": "Future",
-      "description": "Looking for an apprenticeship as a web developer starting in September 2025."
+      "description": "My goal is to become a full-stack developer and contribute to projects that make a real impact."
     }
   },
   "PorjectHeader": {
@@ -83,7 +83,7 @@
   },
   "AboutCard": {
     "title": "About Me",
-    "content": "Since childhood, I have been passionate about computers and new technologies. I started programming in 2018 with Python in high school. After joining E2C and the Web@cademie by Epitech, I enhanced my skills through internships at JetDev and Sergic.",
+    "content": "👋 I’m Augustin, passionate about web and new technologies since always. Currently doing my work-study at Sergic as a web developer, I work on real projects with Java Quarkus and Angular. My journey at Web@cademie by Epitech allowed me to explore different languages and frameworks (PHP, JavaScript, React) and take part in great experiences like a hackathon and volunteering at VivaTech. 🚀",
     "cv": "My CV"
   },
   "ParcoursProfessionel": {
