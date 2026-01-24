@@ -91,6 +91,25 @@
     "experiences": [
       {
         "id": 1,
+        "period": "September 2025 - Present",
+        "title": "Full-stack Developer",
+        "company": "Sergic",
+        "type": "12-month Work-Study",
+        "tasks": [
+          "Companion Project: AI-driven meeting capture and analysis app",
+          "Full application design and architecture (database and software structure)",
+          "Developed a mobile Progressive Web App (PWA) with Angular and Tailwind CSS",
+          "Set up backend and data management with Supabase",
+          "Integrated and orchestrated AI APIs: AssemblyAI (transcription), OpenAI (summaries), and Transloadit (media processing)",
+          "Implemented 100% data anonymization for confidentiality",
+          "Production rollout and group-wide deployment (daily use by employees)",
+          "Code quality assurance: Git hooks (Prettier, ESLint) and audits with SonarQube",
+          "Iterative UI/UX design focused on mobile experience",
+          "Comparative study and selection of third-party services with the Product Owner"
+        ]
+      },
+      {
+        "id": 2,
         "period": "August 2024 - September 2024",
         "title": "Data Scientist",
         "company": "Sergic",
@@ -106,7 +125,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": 3,
         "period": "March 2024 - April 2024",
         "title": "Web Developer",
         "company": "Sergic",
@@ -121,7 +140,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 4,
         "period": "March 2024 - March 2024",
         "title": "Web Developer",
         "company": "JetDev",

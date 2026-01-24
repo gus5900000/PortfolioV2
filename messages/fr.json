@@ -83,7 +83,7 @@
   },
   "AboutCard": {
     "title": "À propos de moi",
-    "content": "👋 Moi c’est Augustin, passionné de web et de nouvelles technologies depuis toujours. Actuellement en alternance chez Sergic comme développeur web, je travaille sur des projets concrets en Java Quarkus et Angular. Mon parcours à la Web@cademie by Epitech m’a permis de toucher à différents langages et frameworks (PHP, JavaScript, React) et de participer à des expériences marquantes comme un hackathon et être bénévole à VivaTech. 🚀 ",
+    "content": "👋 Moi c'est Augustin, passionné de web et de nouvelles technologies depuis toujours. Actuellement en alternance chez Sergic comme développeur web, je travaille sur des projets concrets en Java Quarkus et Angular. Mon parcours à la Web@cademie by Epitech m’a permis de toucher à différents langages et frameworks (PHP, JavaScript, React) et de participer à des expériences marquantes comme un hackathon et être bénévole à VivaTech. 🚀 ",
     "cv": "Mon CV"
   },
   "ParcoursProfessionel": {
@@ -91,6 +91,25 @@
     "experiences": [
       {
         "id": 1,
+        "period": "sept. 2025 - aujourd'hui",
+        "title": "Développeur Full-stack",
+        "company": "Sergic",
+        "type": "Alternance de 12 mois",
+        "tasks": [
+          "Projet Compagnon : Application de capture et d'analyse de réunions par IA",
+          "Conception et architecture complète de l'application (Base de données et structure logicielle)",
+          "Développement d'une Progressive Web App (PWA) mobile avec Angular et Tailwind CSS",
+          "Mise en place du Backend et de la gestion de données via Supabase",
+          "Intégration et orchestration d'API d'IA : AssemblyAI (transcription), OpenAI (résumés) et Transloadit (traitement média)",
+          "Implémentation d'un système d'anonymisation à 100% des données pour la confidentialité",
+          "Mise en production et déploiement à l'échelle du groupe (usage quotidien par les collaborateurs)",
+          "Garantie de la qualité du code : Mise en place de Git hooks (Prettier, ESLint) et audits via SonarQube",
+          "Design itératif de l'interface utilisateur (UI/UX) centré sur l'expérience mobile",
+          "Étude comparative et sélection des services tiers auprès du Product Owner"
+        ]
+      },
+      {
+        "id": 2,
         "period": "août 2024 - sept. 2024",
         "title": "Data Scientist",
         "company": "Sergic",
@@ -106,7 +125,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": 3,
         "period": "mars 2024 - avr. 2024",
         "title": "Développeur Web",
         "company": "Sergic",
@@ -121,7 +140,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 4,
         "period": "mars 2024 - mars 2024",
         "title": "Développeur Web",
         "company": "JetDev",
